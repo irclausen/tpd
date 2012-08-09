@@ -1,0 +1,72 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+@import "bootstrap/responsive.less";
+@import "font.less";
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+@lightAccentColor: #DDDDCD;
+
+@navbarHeight:110px;
+
+body {
+	background-image: url('/img/wood_1.png');
+	padding-top:110px;
+
+	.navbar-inner {
+		background-color:@lightAccentColor;
+		background-image:none;
+		//height: 110px;
+		.container {
+			.brand {
+				display:block;
+				margin:0px;
+				padding:0px;
+				
+					color:#333;
+					font-family: 'AngelinaRegular', Arial, sans-serif;
+					font-size: 60px;
+					font-weight:600;
+					line-height: @navbarHeight;
+				
+
+			}
+			p {
+				margin-bottom:20px;
+				//float:right;
+				font-size: 22px;
+				font-family:'AngelinaRegular', Arial, sans-serif;
+				color:#333;
+			}
+		}
+	}
+}
+
+//Fix for different navbar height
+@media (max-width:979px) {
+	body {
+		padding-top:0px;
+	}
+}
+
+
+
+.container {
+	.imageContainer {
+		color:#999;
+	}
+}
+
+
+
+
+
+
+
