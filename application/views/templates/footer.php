@@ -4,6 +4,7 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.js"><\/script>')</script>
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
+<script src="js/libs/jquery.flexslider.js"></script>
 
 <script src="js/script.js"></script>
 </body>
